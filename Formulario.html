@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <h2>Formulario</h2>
+
+    <form>
+        <div>
+            <label for="email">Correo electrónico:</label>
+            <br>
+            <input type="email" class="input" id="email" name="email" required>
+        </div>
+    
+        <br>
+
+        <div>
+            <label for="password">Contraseña:</label>
+            <br>
+            <input type="password" class="input" id="password" name="password" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="confpassword">Confirmar contraseña:</label>
+            <br>
+            <input type="password" class="input" id="confpassword" name="confpassword" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="name">Nombre:</label>
+            <br>
+            <input type="text" class="input" id="name" name="name" required>
+        </div>
+    
+        <br>
+
+        <div>
+            <label for="Apellido">Apellido:</label>
+            <br>
+            <input type="text" class="input" id="Apellido" name="Apellido">
+        </div>
+    
+        <br>
+
+        <div>
+            <label for="Nacimiento">Fecha de Nacimiento:</label>
+            <br>
+            <input type="date" class="input" value="01/01/2000" required>
+        </div>
+
+        <br>
+        
+        <div>
+            <label for="Sexo">Sexo:</label>
+        </div>
+
+        <div>
+            <input id="masculino" type="checkbox" name="Sexo" value="M" required="required">
+            <label for="masculino">Masculino</label>
+          </div>
+
+        <div>
+            <input id="femenino" type="checkbox" name="Sexo" value="F" required="required">
+            <label for="femenino">Femenino</label>
+        </div>
+
+        <br>
+
+        <button type="submit">Registrarse</button> <button class="" type="reset">Recargar</button>
+    </form>
+</body>
+</html>
